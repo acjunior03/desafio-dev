@@ -2,6 +2,7 @@
 using Domain.Entities;
 using Domain.Interfaces.Repositories;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 
 namespace Data.Repositories
 {
@@ -12,6 +13,11 @@ namespace Data.Repositories
         public RepositoryTransaction(ContextDesafioDev context){
             this._contexto = context;
             this.dbSet = context.Set<Transaction>();
+        }
+
+        public List<Transaction> SearchTransactionByType(string type)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
