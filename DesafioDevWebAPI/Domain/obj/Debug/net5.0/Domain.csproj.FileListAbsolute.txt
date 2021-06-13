@@ -1,0 +1,12 @@
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Domain\bin\Debug\net5.0\Domain.deps.json
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Domain\bin\Debug\net5.0\Domain.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Domain\bin\Debug\net5.0\ref\Domain.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Domain\bin\Debug\net5.0\Domain.pdb
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Domain\obj\Debug\net5.0\Domain.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Domain\obj\Debug\net5.0\ref\Domain.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Domain\obj\Debug\net5.0\Domain.pdb

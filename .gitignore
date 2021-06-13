@@ -3,3 +3,10 @@
 ################################################################################
 
 *.v2
+/DesafioDevWebAPI/Data/bin/Debug/net5.0
+/DesafioDevWebAPI/CrossCutting/bin/Debug/net5.0
+/DesafioDevWebAPI/DesafioDevWebAPI/bin/Debug/net5.0
+/DesafioDevWebAPI/Domain/bin/Debug/net5.0
+/DesafioDevWebAPI/Service/bin/Debug/net5.0
+/DesafioDevWebAPI/ServiceApplication/bin/Debug/net5.0
+/DesafioDevWebAPI/ServiceApplication/obj/Debug/net5.0

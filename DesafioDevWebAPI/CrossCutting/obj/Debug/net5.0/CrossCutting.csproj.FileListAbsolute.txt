@@ -1,0 +1,12 @@
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\bin\Debug\net5.0\CrossCutting.deps.json
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\bin\Debug\net5.0\CrossCutting.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\bin\Debug\net5.0\ref\CrossCutting.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\bin\Debug\net5.0\CrossCutting.pdb
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\obj\Debug\net5.0\CrossCutting.csprojAssemblyReference.cache
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\obj\Debug\net5.0\CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\obj\Debug\net5.0\CrossCutting.AssemblyInfoInputs.cache
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\obj\Debug\net5.0\CrossCutting.AssemblyInfo.cs
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.CoreCompileInputs.cache
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\obj\Debug\net5.0\CrossCutting.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\obj\Debug\net5.0\ref\CrossCutting.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\obj\Debug\net5.0\CrossCutting.pdb

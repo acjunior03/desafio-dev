@@ -1,0 +1,12 @@
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Service\bin\Debug\net5.0\Service.deps.json
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Service\bin\Debug\net5.0\Service.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Service\bin\Debug\net5.0\ref\Service.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Service\bin\Debug\net5.0\Service.pdb
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Service\obj\Debug\net5.0\Service.csprojAssemblyReference.cache
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Service\obj\Debug\net5.0\Service.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Service\obj\Debug\net5.0\ref\Service.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\Service\obj\Debug\net5.0\Service.pdb
