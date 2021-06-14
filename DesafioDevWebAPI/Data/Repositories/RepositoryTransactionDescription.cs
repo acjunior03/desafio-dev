@@ -3,6 +3,7 @@ using Domain.Entities;
 using Domain.Interfaces;
 using Domain.Interfaces.Repositories;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -32,7 +33,7 @@ namespace Data.Repositories
                 }
                 return list;
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -45,7 +46,15 @@ namespace Data.Repositories
 
         public List<TransactionDescription> SearchByStore(string Store)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                return dbSet.Include(x => x.Transaction).Where(x => x.StoreName.Equals(Store)).ToList();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
         }
     }
 }

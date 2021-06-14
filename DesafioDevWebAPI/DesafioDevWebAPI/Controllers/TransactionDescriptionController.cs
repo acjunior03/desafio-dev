@@ -1,11 +1,9 @@
-﻿using Domain.Interfaces.Services;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
+using ServiceApplication.Interfaces;
+using ServiceApplication.Models;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace DesafioDevWebAPI.Controllers
 {
@@ -13,8 +11,8 @@ namespace DesafioDevWebAPI.Controllers
     [ApiController]
     public class TransactionDescriptionController : Controller
     {
-        public IServiceTransactionDescription _service { get; set; }
-        public TransactionDescriptionController(IServiceTransactionDescription service)
+        public IServiceApplicationTransactionDescription _service { get; set; }
+        public TransactionDescriptionController(IServiceApplicationTransactionDescription service)
         {
             _service = service;
         }
@@ -27,7 +25,10 @@ namespace DesafioDevWebAPI.Controllers
                 listArchiveBytes.Add(ConvertToBytes(item));
             }
             var result = _service.ImportFileCNAB(listArchiveBytes);
-            return Ok(result);
+            if (result is BaseResult)
+                return Ok(result);
+            else
+                return BadRequest(result);
         }
         private byte[] ConvertToBytes(IFormFile image)
         {

@@ -13,6 +13,6 @@ namespace ServiceApplication.Models
         public string StoreOwner { get; set; }
         public string StoreName { get; set; }
 
-        public virtual ModelTransaction Transaction { get; set; }
+        public virtual ModelTransaction ModelTransaction { get; set; }
     }
 }

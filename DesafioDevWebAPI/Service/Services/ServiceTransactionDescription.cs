@@ -4,6 +4,7 @@ using Domain.Interfaces.Services;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace Service.Services
 {
@@ -28,8 +29,30 @@ namespace Service.Services
             {
                 objImports = BytesToArchive(itemArchive);
             }
-            var returnAdd = _repository.AddList(objImports);
-            return returnAdd;
+            List<TransactionDescription> returnAdd = _repository.AddList(objImports);
+            var group = returnAdd.GroupBy(x => x.StoreName).ToList();
+            List<GroupByStore> returnImport = new List<GroupByStore>();
+            foreach (var item in group)
+            {
+                GroupByStore newObj = new GroupByStore();
+                newObj.Storename = item.Key;
+                newObj.ListTransactionDescription = item.ToList();
+                newObj.CurrentBalance = 0;
+                var returnSearch = _repository.SearchByStore(item.Key);
+                var groupTransactions = returnSearch.GroupBy(x => x.Transaction.Signal);
+                foreach (var itemSignal in groupTransactions)
+                {
+                    decimal sum = itemSignal.Sum(x => x.Value);
+                    if (itemSignal.Key.Equals("+"))
+                        newObj.CurrentBalance += sum;
+                    else
+                    {
+                        newObj.CurrentBalance -= sum;
+                    }
+                }
+                returnImport.Add(newObj);
+            }
+            return returnImport;
         }
 
         private List<TransactionDescription> BytesToArchive(byte[] fileBytes)

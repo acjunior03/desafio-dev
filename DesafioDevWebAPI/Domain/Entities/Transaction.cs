@@ -11,6 +11,6 @@ namespace Domain.Entities
         public string Signal { get; set; }
         public long Type { get; set; }
 
-        public virtual ICollection<TransactionDescription> Order { get; set; }
+        public virtual ICollection<TransactionDescription> TransactionDescription { get; set; }
     }
 }

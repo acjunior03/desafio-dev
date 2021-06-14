@@ -1,5 +1,7 @@
 ﻿using Domain.Interfaces.Services;
 using ServiceApplication.Interfaces;
+using ServiceApplication.Mapping;
+using System;
 using System.Collections.Generic;
 
 namespace ServiceApplication.Services
@@ -14,7 +16,14 @@ namespace ServiceApplication.Services
 
         public object ImportFileCNAB(List<byte[]> fileBytes)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                return _service.ImportFileCNAB(fileBytes).ToBaseResultModelGroupByStore();
+            }
+            catch (Exception ex)
+            {
+                return ex.ToBaseErrorModel();
+            }
         }
     }
 }

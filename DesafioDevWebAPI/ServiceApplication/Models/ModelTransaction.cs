@@ -10,6 +10,6 @@ namespace ServiceApplication.Models
         public string Signal { get; set; }
         public long Type { get; set; }
 
-        public virtual List<ModelTransactionDescription> Order { get; set; }
+        public virtual List<ModelTransactionDescription> ListModelTransactionDescription { get; set; }
     }
 }
