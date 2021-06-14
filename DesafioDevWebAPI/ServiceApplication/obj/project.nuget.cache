@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "udivBUAO8SEmqLGMaOgI+xJAUKkQ0gay/Egm48Ec5BgS1XDqUwFZP4XToO3MhSvHZI8g+GrpbzBnRO4fUu1YPA==",
+  "dgSpecHash": "9uUhdzJoWYJNOkY9e5kO8L9GQ9Z8DORPA845qEYC1h7/JBql6FBfGBNB2ce0d1WIAW8se2HG3/GNu9e9EbCWxQ==",
   "success": true,
   "projectFilePath": "E:\\Meus projeto 2021\\desafio-dev\\desafio-dev\\DesafioDevWebAPI\\ServiceApplication\\ServiceApplication.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Junior\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Junior\\.nuget\\packages\\microsoft.identitymodel.logging\\6.11.1\\microsoft.identitymodel.logging.6.11.1.nupkg.sha512",
+    "C:\\Users\\Junior\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.11.1\\microsoft.identitymodel.tokens.6.11.1.nupkg.sha512",
+    "C:\\Users\\Junior\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

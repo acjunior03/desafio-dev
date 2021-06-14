@@ -10,3 +10,12 @@ E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\obj\D
 E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\obj\Debug\net5.0\CrossCutting.dll
 E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\obj\Debug\net5.0\ref\CrossCutting.dll
 E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\obj\Debug\net5.0\CrossCutting.pdb
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\bin\Debug\net5.0\Data.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\bin\Debug\net5.0\Domain.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\bin\Debug\net5.0\Service.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\bin\Debug\net5.0\ServiceApplication.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\bin\Debug\net5.0\Data.pdb
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\bin\Debug\net5.0\Domain.pdb
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\bin\Debug\net5.0\ServiceApplication.pdb
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\bin\Debug\net5.0\Service.pdb
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevWebAPI\CrossCutting\obj\Debug\net5.0\CrossCutting.csproj.CopyComplete
