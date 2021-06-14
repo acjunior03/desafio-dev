@@ -27,6 +27,9 @@ namespace DesafioDevWebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            ConfigureService.ConfigureDependenciesService(services);
+            ConfigureRepository.ConfigureDependenciesRepository(services, Configuration.GetConnectionString("SqlConnection"));
+            services.AddControllers();
             services.AddControllers().AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
             #region Compatibility
@@ -48,9 +51,6 @@ namespace DesafioDevWebAPI
                 });
 
             #endregion
-
-            ConfigureService.ConfigureDependenciesService(services);
-            ConfigureRepository.ConfigureDependenciesRepository(services, Configuration.GetConnectionString("SqlConnection"));
 
             var signingConfigurations = new SigningConfigurations();
             services.AddSingleton(signingConfigurations);

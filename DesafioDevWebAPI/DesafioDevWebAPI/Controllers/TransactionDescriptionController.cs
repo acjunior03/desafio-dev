@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ServiceApplication.Interfaces;
 using ServiceApplication.Models;
@@ -16,6 +17,7 @@ namespace DesafioDevWebAPI.Controllers
         {
             _service = service;
         }
+        [AllowAnonymous]
         [HttpPatch("ImportFile"), DisableRequestSizeLimit]
         public IActionResult ImportFile(List<IFormFile> file)
         {

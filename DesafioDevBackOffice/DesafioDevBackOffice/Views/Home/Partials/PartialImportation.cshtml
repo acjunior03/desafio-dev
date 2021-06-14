@@ -1,0 +1,19 @@
+﻿@model List<Business.Models.ModelGroupByStore>
+@{
+    var modelJson = Json.Serialize(Model);
+}
+<div class="table-responsive table-responsive-data2">
+    <table id="import-table"
+           class="table table-data2"
+           data-detail-view="true"
+           data-locale="pt-BR"
+           data-search="false"
+           data-header-style="importTableHeaderStyle"
+           data-pagination="false"
+           data-detail-formatter="detailFormatter">
+    </table>
+</div>
+<script>
+    var modelReturn = JSON.parse('@modelJson');
+</script>
+<script src="~/js/home/partials/partial-importation.js"></script>

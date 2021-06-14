@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using Business.Models;
 namespace Business.Services.Interfaces
 {
     public interface IServiceTransactionDescription
     {
-        public object ImportFileCNAB(List<byte[]> fileBytes);
+        public object ImportFileCNABAsync(ModelFiles file);
     }
 }

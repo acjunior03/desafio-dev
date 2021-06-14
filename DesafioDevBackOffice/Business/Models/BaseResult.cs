@@ -1,4 +1,5 @@
 ﻿namespace Business.Models
+{
     public class BaseResult
     {
         public string Message { get; set; }

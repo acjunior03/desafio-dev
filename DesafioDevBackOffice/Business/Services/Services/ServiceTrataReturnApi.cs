@@ -1,5 +1,4 @@
 ﻿using Business.Models;
-using Microsoft.SharePoint.Client;
 using Newtonsoft.Json;
 using System;
 using System.Net.Http;
@@ -71,7 +70,7 @@ namespace Business.Services.Services
             return resultContent;
         }
 
-        public static object ConnectToService(string url, string endPoint, RequestType requestType, string token = "", string body = null, string bodyType = null)
+        public static object ConnectToService(string url, string endPoint, ModelEnumRequestType requestType, string token = "", string body = null, MultipartFormDataContent bodyFile = null, string bodyType = null)
         {
             try
             {
@@ -89,7 +88,7 @@ namespace Business.Services.Services
 
                 switch (requestType)
                 {
-                    case RequestType.GET:
+                    case ModelEnumRequestType.GET:
                         {
                             if (body != null)
                             {
@@ -99,18 +98,24 @@ namespace Business.Services.Services
                                 return client.GetAsync(endPoint).Result;
                         }
 
-                    case RequestType.POST:
+                    case ModelEnumRequestType.POST:
                         {
                             stringContent = new StringContent(body, Encoding.UTF8, bodyType);
                             return client.PostAsync(endPoint, stringContent).Result;
                         }
-                    case RequestType.PUT:
+                    case ModelEnumRequestType.PUT:
                         {
                             stringContent = new StringContent(body, Encoding.UTF8, bodyType);
 
                             return client.PutAsync(endPoint, stringContent).Result;
                         }
-                    case RequestType.DELETE:
+                    case ModelEnumRequestType.PATCH:
+                        {
+                            var content = new MultipartFormDataContent();
+                            content = bodyFile;
+                            return client.PatchAsync(endPoint, bodyFile).Result; ;
+                        }
+                    case ModelEnumRequestType.DELETE:
                         {
                             var returnRequest = client.DeleteAsync(endPoint).Result;
                             result = returnRequest.Content.ReadAsStringAsync().Result;

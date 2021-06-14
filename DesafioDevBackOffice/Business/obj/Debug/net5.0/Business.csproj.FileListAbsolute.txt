@@ -1,0 +1,12 @@
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevBackOffice\Business\obj\Debug\net5.0\Business.csprojAssemblyReference.cache
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevBackOffice\Business\obj\Debug\net5.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevBackOffice\Business\obj\Debug\net5.0\Business.AssemblyInfoInputs.cache
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevBackOffice\Business\obj\Debug\net5.0\Business.AssemblyInfo.cs
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevBackOffice\Business\obj\Debug\net5.0\Business.csproj.CoreCompileInputs.cache
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevBackOffice\Business\bin\Debug\net5.0\Business.deps.json
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevBackOffice\Business\bin\Debug\net5.0\Business.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevBackOffice\Business\bin\Debug\net5.0\ref\Business.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevBackOffice\Business\bin\Debug\net5.0\Business.pdb
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevBackOffice\Business\obj\Debug\net5.0\Business.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevBackOffice\Business\obj\Debug\net5.0\ref\Business.dll
+E:\Meus projeto 2021\desafio-dev\desafio-dev\DesafioDevBackOffice\Business\obj\Debug\net5.0\Business.pdb

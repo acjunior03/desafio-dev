@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioDevBackOffice", "DesafioDevBackOffice\DesafioDevBackOffice.csproj", "{8AAA11B0-D4E6-4851-918E-F8367C5D84FC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{B9B0BD15-09BF-4641-B8A7-FBBDDE785025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDevBackOffice", "DesafioDevBackOffice\DesafioDevBackOffice.csproj", "{309E7497-187F-409C-A94A-7DF197288862}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8AAA11B0-D4E6-4851-918E-F8367C5D84FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8AAA11B0-D4E6-4851-918E-F8367C5D84FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8AAA11B0-D4E6-4851-918E-F8367C5D84FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8AAA11B0-D4E6-4851-918E-F8367C5D84FC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B9B0BD15-09BF-4641-B8A7-FBBDDE785025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B9B0BD15-09BF-4641-B8A7-FBBDDE785025}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9B0BD15-09BF-4641-B8A7-FBBDDE785025}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9B0BD15-09BF-4641-B8A7-FBBDDE785025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{309E7497-187F-409C-A94A-7DF197288862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309E7497-187F-409C-A94A-7DF197288862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309E7497-187F-409C-A94A-7DF197288862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309E7497-187F-409C-A94A-7DF197288862}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

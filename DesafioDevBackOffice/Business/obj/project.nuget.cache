@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "6H+yIbdYwUrxNjymGM0gOAk0oZRxF6Bxh2t28k4GFCxG4/N3FXt3r+gAKRMOIH3BxfLfhznq3oi+orFg8GGQgw==",
+  "dgSpecHash": "QZJfs6Crtp37YBY15BmOJMOyAYPcb8DyZxepjXifxA/9YfoWZt1aul0He2y6R0JwFeED5bC/ZqAH1TnMazqXyw==",
   "success": true,
   "projectFilePath": "E:\\Meus projeto 2021\\desafio-dev\\desafio-dev\\DesafioDevBackOffice\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Junior\\.nuget\\packages\\google.api.commonprotos\\2.3.0\\google.api.commonprotos.2.3.0.nupkg.sha512",
     "C:\\Users\\Junior\\.nuget\\packages\\google.protobuf\\3.15.8\\google.protobuf.3.15.8.nupkg.sha512",
+    "C:\\Users\\Junior\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.7\\microsoft.aspnetcore.http.features.5.0.7.nupkg.sha512",
+    "C:\\Users\\Junior\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
     "C:\\Users\\Junior\\.nuget\\packages\\microsoft.sharepointonline.csom\\16.1.21312.12000\\microsoft.sharepointonline.csom.16.1.21312.12000.nupkg.sha512",
     "C:\\Users\\Junior\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Junior\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\Junior\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Junior\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
   ],

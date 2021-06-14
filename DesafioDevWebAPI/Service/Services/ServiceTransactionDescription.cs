@@ -68,10 +68,10 @@ namespace Service.Services
 
                 string type = line.Substring(0, 1);
                 string dateTime = line.Substring(1, 4) + "/" + line.Substring(5, 2) + "/" + line.Substring(7, 2) + " " +
-                  line.Substring(42, 2) + ":" + line.Substring(44, 2) + ":" + line.Substring(46, 2);
+                                  line.Substring(42, 2) + ":" + line.Substring(44, 2) + ":" + line.Substring(46, 2);
                 string value = line.Substring(9, 10);
-                string CPF = line.Substring(19, 11); ;
-                string Card = line.Substring(30, 12); ;
+                string CPF = line.Substring(19, 11); 
+                string Card = line.Substring(30, 12); 
                 string StoreOwner = line.Substring(48, 14);
                 string StoreName = line.Substring(62, 18);
 
