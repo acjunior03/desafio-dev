@@ -11,7 +11,7 @@ namespace CrossCutting.DeendencyInjection
         public static void ConfigureDependenciesRepository(IServiceCollection serviceCollection, string SqlConnection)
         {
             serviceCollection.AddScoped(typeof(IRepositoryTransaction), typeof(RepositoryTransaction));
-            serviceCollection.AddScoped(typeof(IRepositoryTransactionDescription), typeof(IRepositoryTransactionDescription));
+            serviceCollection.AddScoped(typeof(IRepositoryTransactionDescription), typeof(RepositoryTransactionDescription));
             serviceCollection.AddDbContext<ContextDesafioDev>(options => options.UseSqlServer(SqlConnection)
                                              .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
         }

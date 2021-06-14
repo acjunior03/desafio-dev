@@ -5,6 +5,6 @@ namespace Domain.Interfaces.Repositories
 {
     public interface IRepositoryTransaction
     {
-        public List<Transaction> SearchTransactionByType(string type);
+        public Transaction SearchTransactionByType(string type);
     }
 }

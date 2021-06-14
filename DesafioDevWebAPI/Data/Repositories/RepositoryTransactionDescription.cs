@@ -4,6 +4,7 @@ using Domain.Interfaces;
 using Domain.Interfaces.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Data.Repositories
 {
@@ -13,13 +14,28 @@ namespace Data.Repositories
         protected DbSet<TransactionDescription> dbSet;
         public RepositoryTransactionDescription(ContextDesafioDev context)
         {
-            this._contexto = context;
-            this.dbSet = context.Set<TransactionDescription>();
+            _contexto = context;
+            dbSet = context.Set<TransactionDescription>();
         }
 
         public List<TransactionDescription> AddList(List<TransactionDescription> list)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                var transaction = _contexto.Database.BeginTransaction();
+                using (transaction)
+                {
+                    _contexto.Set<TransactionDescription>().AddRange(list);
+                    _contexto.SaveChanges();
+                    transaction.Commit();
+                    list = _contexto.Set<TransactionDescription>().Include(x => x.Transaction).Where(x=> list.Select(z=>z.Id).Contains(x.Id)).ToList();
+                }
+                return list;
+            }
+            catch (System.Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public List<TransactionDescription> SearchAll()

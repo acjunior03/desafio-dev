@@ -2,7 +2,9 @@
 using Domain.Entities;
 using Domain.Interfaces.Repositories;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Data.Repositories
 {
@@ -10,14 +12,22 @@ namespace Data.Repositories
     {
         protected readonly ContextDesafioDev _contexto;
         protected DbSet<Transaction> dbSet;
-        public RepositoryTransaction(ContextDesafioDev context){
+        public RepositoryTransaction(ContextDesafioDev context)
+        {
             this._contexto = context;
             this.dbSet = context.Set<Transaction>();
         }
 
-        public List<Transaction> SearchTransactionByType(string type)
+        public Transaction SearchTransactionByType(string type)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                return dbSet.Where(x => x.Type == Convert.ToInt64(type)).FirstOrDefault();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

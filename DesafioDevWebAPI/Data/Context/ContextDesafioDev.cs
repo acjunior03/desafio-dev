@@ -8,8 +8,8 @@ namespace Data.Context
         public ContextDesafioDev(DbContextOptions<ContextDesafioDev> options) : base(options)
         {
         }
-        public DbSet<Transaction> Login { get; set; }
-        public DbSet<TransactionDescription> Client { get; set; }
+        public DbSet<Transaction> Transaction { get; set; }
+        public DbSet<TransactionDescription> TransactionDescription { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Transaction>().HasKey(x => x.Id);
