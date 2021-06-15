@@ -27,6 +27,9 @@ saldo atual de cada conta.
 - Modificar string de conexão com o banco de dados no arquivo appsettings.json 
   localizado na pasta raiz do projeto DesafioDevWebAPI:
 	- O parâmetro a ser modificado é "SqlConnection"
+- Modificar a Url de conexão com a API no arquivo appsettings.json 
+  localizado na pasta raiz do projeto DesafioDevBackOffice:
+	- O parâmetro a ser modificado é "Url"
 	
 #UTILIZAÇÃO
 - Devido a interface ser muito intuitiva e simples, não vi a necessidade de descrever um passo a passo para sua utilização
